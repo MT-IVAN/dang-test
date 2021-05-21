@@ -1,5 +1,5 @@
 const mysql = require('mysql');
-const { addListener } = require('nodemon');
+const express = require("express");
 
 const con = mysql.createConnection({
   host: "localhost",
