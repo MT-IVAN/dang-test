@@ -7,7 +7,7 @@ const con = mysql.createConnection({
   database : "ivis",
   password: ""
 });
-
+//aqui va el codigo de dang
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
@@ -34,6 +34,7 @@ for(let i = 0; i< arr.length;i++){
 
 }
 
+console.log("hola")
 arr.forEach(num => console.log(num));
 
 const filtrados = arr.filter(enteros => enteros%2==0);
