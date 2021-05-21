@@ -34,6 +34,7 @@ for(let i = 0; i< arr.length;i++){
 
 }
 
+console.log("hola")
 arr.forEach(num => console.log(num));
 
 const filtrados = arr.filter(enteros => enteros%2==0);
