@@ -7,7 +7,7 @@ const con = mysql.createConnection({
   database : "ivis",
   password: ""
 });
-
+//aqui va el codigo de dang
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
